@@ -1,0 +1,60 @@
+body {
+    background: #55ffe5;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+
+.contact-box{
+    background: white;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    color: #fff;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.conatiner p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
